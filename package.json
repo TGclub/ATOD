@@ -1,0 +1,13 @@
+{
+  "name": "atod",
+  "version": "1.0.0",
+  "description": "online 2D PvP Game with DOTA style",
+  "scripts": {
+    "build":"",
+    "dev":"",
+    "test": "",
+    "mock": ""
+  },
+  "author": "acery.ycy",
+  "license": "MIT"
+}
