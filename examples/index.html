@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ATOD</title>
+  <style>* {margin: 0; padding: 0;}</style>
+</head>
+
+<body>
+  <!-- 方便本地调试 CDN太慢了.. -->
+  <script src="./pixi.min.js"></script>
+  <script>
+    const app = new PIXI.Application();
+
+    // FullScreenModel
+    const makeFullScreen = (app) => {
+      app.renderer.view.style.position = "absolute";
+      app.renderer.view.style.display = "block";
+      app.renderer.autoResize = true;
+      app.renderer.resize(window.innerWidth, window.innerHeight);
+    }
+    
+    makeFullScreen(app);
+    app.renderer.backgroundColor = 0x061639;
+    document.body.appendChild(app.view);
+  </script>
+</body>
+
+</html>

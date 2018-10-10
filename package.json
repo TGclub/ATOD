@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "online 2D PvP Game with DOTA style",
   "scripts": {
-    "build":"",
-    "dev":"",
+    "build": "",
+    "dev": "",
     "test": "",
-    "mock": ""
+    "mock": "",
+    "lab": "cd ./examples && http-server -p 2333"
   },
   "author": "acery.ycy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
