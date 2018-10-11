@@ -8,6 +8,8 @@ https://github.com/pixijs/pixi.js
 
 ## development(temp)
 
+> $ npm install 
+
 > $ npm run lab 
 
 open the browser，source code in `/examples/index.html`
