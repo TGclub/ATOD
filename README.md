@@ -1,8 +1,16 @@
 # ATOD（倒过来读就是DOTA)
 
+![](./welcome.jpg)
+
 ## Base Tech
 The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer. 
 https://github.com/pixijs/pixi.js
+
+## development(temp)
+
+> $ npm run lab 
+
+open the browser，source code in `/examples/index.html`
 
 ## 关键词
 2D、像素风、web版、“以撒的结合风格”，PVP，“DOTA英雄和技能”，“just for fun“。
