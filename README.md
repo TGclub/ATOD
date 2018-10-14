@@ -1,5 +1,6 @@
 # README
 # ATOD（倒过来读就是DOTA)
+![](./welcome.jpg)
 
 ## Base Tech
 #### phaser
@@ -47,3 +48,7 @@ look at the terminal, open the browser, source code in `/examples/index.html`.
 ### 关于美术素材
 
 最开始准备用雪碧图，后来发现工作量太大了且低效，则选择用2D骨骼动画。
+参考：https://github.com/DragonBones/DragonBonesJS/tree/master/Phaser/Demos
+效果预览如图：
+
+![](./DB_preview.png)
